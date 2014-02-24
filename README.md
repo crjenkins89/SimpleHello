@@ -1,2 +1,3 @@
-SimpleHello
+#SimpleHello
 ===========
+A simple test project
