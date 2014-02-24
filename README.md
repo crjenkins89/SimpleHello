@@ -1,3 +1,3 @@
 #SimpleHello
 ===========
-A simple test project
+A simple test project for testing hook creation
