@@ -1,3 +1,4 @@
 #SimpleHello
-===========
-A simple test project for testing hook creation
+================================================
+A simple test project for testing hook creation.
+================================================
