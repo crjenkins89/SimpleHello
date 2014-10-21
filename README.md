@@ -1,3 +1,3 @@
 #SimpleHello
------------------------------------------------
-Simple test project for testing GitHub hooks.
+
+Simple test project for testing GitHub.
