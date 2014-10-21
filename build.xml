@@ -38,21 +38,4 @@
   <target name="build-war" depends="build-project">
     <war destfile="${warname}" basedir="bin" />
   </target>
-<!--   
-	<target name="login">
-    <exec dir="${basedir}" executable="${gcf}" failonerror="true">
-      <arg line="login -a ${cf.apiEndpoint} -u ${cf.userName} -p ${cf.password} -o ${cf.org} -s ${cf.space}" />
-    </exec>
-  </target>
- <target name="push-war">
-    <exec dir="${basedir}" executable="${gcf}" failonerror="true">
-      <arg line="push -n ${ant.project.name} -p ${warname} ${ant.project.name}" />
-    </exec>
-  </target>
-  <target name="logout">
-    <exec dir="${basedir}" executable="${gcf}" failonerror="true">
-      <arg line="logout" />
-    </exec>
-  </target>
-  -->
 </project>
