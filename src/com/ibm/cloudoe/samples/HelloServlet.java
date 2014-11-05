@@ -14,8 +14,7 @@ public class HelloServlet extends HttpServlet {
         response.setContentType("text/plain");
         response.setStatus(200);
         PrintWriter writer = response.getWriter();
-        writer.println("Hello World!");
-        writer.println("Hello from " + System.getenv("VCAP_APP_HOST") + ":" + System.getenv("VCAP_APP_PORT"));
+        writer.println("Hello world from " + System.getenv("VCAP_APP_HOST") + ":" + System.getenv("VCAP_APP_PORT"));
         writer.println("");
         writer.println("This is a story all about how...");
         writer.close();
