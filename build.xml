@@ -28,14 +28,16 @@
     <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}" includeantruntime="false">
       <src path="src" />
       <classpath>
-      	<pathelement path="${classpathDir}"/>
-      	<fileset dir="lib">
-      	  <include name="**/*.jar"/>
-      	</fileset>
+        <pathelement path="${classpathDir}"/>
+        <fileset dir="lib">
+          <include name="**/*.jar"/>
+        </fileset>
       </classpath>
     </javac>
   </target>
   <target name="build-war" depends="build-project">
-    <war destfile="${warname}" basedir="bin" />
+    <delete dir="dist"/>
+    <mkdir dir="dist"/>
+    <war destfile="dist/${warname}" basedir="bin"/>
   </target>
 </project>
