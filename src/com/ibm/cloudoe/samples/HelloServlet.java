@@ -17,6 +17,8 @@ public class HelloServlet extends HttpServlet {
         writer.println("Hello world from " + System.getenv("VCAP_APP_HOST") + ":" + System.getenv("VCAP_APP_PORT"));
         writer.println("");
         writer.println("This is a story all about how...");
+        writer.println("");
+        writer.println("There is always more to the story");
         writer.close();
     }
 }
