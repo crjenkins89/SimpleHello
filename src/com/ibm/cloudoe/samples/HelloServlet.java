@@ -18,7 +18,8 @@ public class HelloServlet extends HttpServlet {
         writer.println("");
         writer.println("This is a story all about how...");
         writer.println("");
-        writer.println("There is always more to the story");
+        writer.println("There is always more to the story.");
+        Writer.println("This is the story that will never end.");
         writer.close();
     }
 }
