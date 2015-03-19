@@ -16,10 +16,7 @@ public class HelloServlet extends HttpServlet {
         PrintWriter writer = response.getWriter();
         writer.println("Hello world from " + System.getenv("VCAP_APP_HOST") + ":" + System.getenv("VCAP_APP_PORT"));
         writer.println("");
-        writer.println("This is a story all about how...");
-        writer.println("");
-        writer.println("There is always more to the story.");
-        Writer.println("This is the story that will never end.");
+        writer.println("Once upon a time there was a dragon.  Not a particularly large or ferocious dragon, but a dragon none the less.");
         writer.close();
     }
 }
